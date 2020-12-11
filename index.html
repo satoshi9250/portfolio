@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Webデザイナーヤマダハナコ ポートフォリオ'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='Webデザイナーヤマダハナコのポートフォリオです。'>
+  <meta name="description" content="Webデザイナーヤマダハナコのポートフォリオです。" />
+  <title> ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">
+        <span class="logo-name">ITO SATOSHI</span>
+        <span class="logo-title">PORTFOLIO</span>
+        <span class="logo-text">未経験エンジニア </span>
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <!-- .gnav -->
+    <nav class="gnav">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">Profile</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <main class="content">
+
+      <!-- .about-secion -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">Profile</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              こんにちは！ 伊藤　哲史と申します。
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image" src="img/profile/idphoto.jpg" alt=""></div>
+              <div class="about-body">
+                <p>
+                  31歳未経験エンジニアです。<br>
+                </p>
+                <p>
+                  高校卒業後、アパレルに６年勤務しまして、転職をして派遣社員でお菓子メーカーの製造を約３年勤務しまして、廃品回収、清掃業に勤務しています。<br>
+                  プログラミングスクールに通い、HTML/CSS、RUBY、Ruby on Rails、javaScript,jQuery基礎を学び、カルキュラムに従って、チャットアプリを制作してデプロイまで行いました。<br>
+                  プログラミングスクールで得た知識・スキルを活用してコミニュケーションアプリを制作しました。<br>
+                  最後にチーム開発で、フリマアプリ制作を経験しました。<br>
+                  日々、プログラミングを勉強して、SNSでアプトプットを行っております。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-secion -->
+
+      <!-- .works-secion -->
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">Works</h2>
+          </div>
+          <p class="section-lead">
+            これまでの成果物です。
+          </p>
+          <div class="section-body works">
+            <div class="works-list js-my-gallery">
+              <figure class="works-item">
+                <img class="works-image fadein lazyloaded" src="img/works/thumb/KTDO0mpMvNeTeFZ1607581210_1607581219.png"
+                  data-src="img/works/company.jpg" alt="">
+                <figcaption class="works-body">
+                  <div class="works-title">Freadom Post</div>
+                  <div class="works-text">画面上部のゲストでログインできます。</div>
+                  <p> コメント：<br>
+                    ・Ruby 2.6.5 ・Ruby on Rails 6.0.0 ・MySQL 5.3 ・Heroku<br>
+
+                    機能一覧 ・ユーザー登録、ログイン機能(devise) ・投稿機能 ・画像投稿 ・編集機能 ・いいね機能 ・お気に入り機能 ・コメント機能（ajax） ・検索機能(ajax)<br>
+
+                    苦労した点　お気に入りの機能を追加したのですが、マイページにお気に入り登録した写真を表示させるのに苦労しました。
+
+                  </p>
+                  <div class="works-url"><a class="works-url-link" href="https://tranquil-shelf-81798.herokuapp.com/" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <img class="works-image fadein lazyloaded" src="img/works/thumb/n4fwPlMwaVu9nVh1607582978.png"
+                  data-src="img/works/company.jpg" alt="">
+                <figcaption class="works-body">
+                  <div class="works-title">フリマアプリ</div>
+                  <div class="works-text">担当： ユーザーのサーバーサイドとフロントとパンくず修正</div>
+                  <p>コメント：<br>
+                    テスト用アカウント等
+                      購入者用
+                      メールアドレス: yamada@yamada.com 
+                      パスワード: 1111111 <br>
+                      購入用カード情報
+                      番号： 4242424242424242
+                      期限： Jan 27 
+                      セキュリティコード：1111 <br>
+                      出品者用
+                      メールアドレス名: tanaka@tanaka.com 
+                      パスワード: 2222222 <br>
+
+                      苦労した点　バリデーションが上手く作用しないのに苦労しました。
+                  </p>
+                  <div class="works-url"><a class="works-url-link" href=" http://54.238.56.136/ " target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              <figure class="works-item2">
+                <img class="works-image fadein lazyloaded" src="img/works/thumb/wDFw9UWAapLWFik1607584999.png"
+                  data-src="img/works/company.jpg" alt="">
+                <figcaption class="works-body">
+                  <div class="works-title">Char-Space</div>
+                  <div class="works-text">TECH CAMPで最初にデプロイした作品</div>
+                  <p>コメント：<br>
+                    ・Ruby 2.6.5 ・Ruby on Rails 6.0.0 ・MySQL 5.3 ・AWS <br>
+                    テスト用アカウント
+                    メールアドレス: guests@guests.com
+                    パスワード： guests1234 <br>
+                    苦労した点 初めてのデプロイだったので上手く画像を表示させることに苦労しました。
+                  </p>
+                  <div class="works-url"><a class="works-url-link" href="http://54.249.204.252/" target="_blank">Link</a>
+                  </div>
+                </figcaption>
+              </figure>
+      <!-- /.works-secion -->
+
+      <!-- .skill-secion -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              未経験ですが頑張ります！
+            </p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/file_type_html_icon_130541.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">HTML5/CSS3</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    SassやHamlで書いたことあります。Visual Studio codeを使って書いております。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/file_type_js_official_icon_130509.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate1"></div>
+                  </div>
+                  <p>
+                    まだまだ非同期通信が上手く行かないことがあるので、勉強中です。
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/ruby_original_wordmark_logo_icon_146364.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Ruby</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <p>
+                    スクールで学んだ、条件分岐処理や繰り返しを経験しました。
+                  </p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/rails_plain_wordmark_logo_icon_146377.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Ruby On Rails</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate4"></div>
+                  </div>
+                  <p>
+                    railsの開発は、個人的に何度も行っているので基本的な事は問題がありませんが、まだまだエラーに手こずります。</p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/file_type_aws_icon_130732.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">AWS</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate1"></div>
+                  </div>
+                  <p>
+                    デプロイを経験済みです。何も見ずにはデプロイを行うことができないのでサイトを見てデプロイは出来ます。</p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/heroku_original_wordmark_logo_icon_146482.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Heroku</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <p>
+                    問題なくデプロイができます。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-secion -->
+
+      <!-- .contact-secion -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-image-wrapper" href="" target="_blank"><img class="contact-image"
+                    src="img/contact/github-logo_icon-icons.com_73546.png" alt="https://github.com/">
+                  <div class="works-url"><a class="works-url-link" href="https://github.com/satoshi9250" target="_blank">GitHub</a></div>
+              </li>
+              <li class="contact-item">
+                <img class="contact-image"src="img/contact/1491579542-yumminkysocialmedia22_83078.png" alt="">
+                <div class="works-url"><a class="works-url-link" href="https://twitter.com/satoshi21873862" target="_blank">twitter</a></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-secion -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div id="js-page-top" class="page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <p class="copyright">Copyright&copy;Hanako Yamada. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/photoswipe/photoswipe.min.js"></script>
+  <script src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script src="js/photoswipe/photoswipe-setup.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
